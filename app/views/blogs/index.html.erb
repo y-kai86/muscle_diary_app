@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>筋トレMEMO</h1>
+<h1>トレーニング日誌</h1>
 
-<%= link_to '筋トレ内容', new_blog_path %>
+<%= link_to '新規作成', new_blog_path %>
 
 <%= month_calendar events: @blogs do |date, blogs| %>
   <%= date.day %>
